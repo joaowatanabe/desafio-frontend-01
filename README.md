@@ -4,7 +4,7 @@
 
 O objetivo deste exercício é replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
 
-# Caso tenha problema em abrir o arquivo pelo figma, utilize pelo [penpot](https://design.penpot.app/#/workspace/3d05e112-61de-81a6-8004-ac026df530b4/3d0e918b-fe70-802f-8004-ac028b5d73ec?page-id=3d0e918b-fe70-802f-8004-ac02970c091c)
+# Caso tenha problema em abrir o arquivo pelo figma, utilize pelo [penpot](https://design.penpot.app/#/view/3d0e918b-fe70-802f-8004-ac028b5d73ec?page-id=3d0e918b-fe70-802f-8004-ac02970c091c&section=interactions&index=0&share-id=ab27a21c-afea-8070-8004-b24c3b686659)
 
 ## Páginas obrigatórias
 
