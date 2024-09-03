@@ -182,6 +182,11 @@ nav a {
   margin: 46px auto 0 auto;
 }
 
+.botao-portfolio a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .botao-portfolio:hover {
   background-color: #33323d;
   color: #ffffff;
@@ -221,6 +226,11 @@ nav a {
   letter-spacing: 2px;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+.botao-contato a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .botao-contato:hover {
