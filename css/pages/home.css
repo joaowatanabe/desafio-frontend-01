@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style: none;
 }
@@ -11,8 +15,6 @@ ul {
 a {
   text-decoration: none;
 }
-
-
 
 .menu-bg {
   background-color: #ffffff;
@@ -131,40 +133,47 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-top: 1px solid #EAEAEB;
-  border-bottom: 1px solid #EAEAEB;
+  border-top: 1px solid #eaeaeb;
+  border-bottom: 1px solid #eaeaeb;
   padding: 0 40px;
 }
 
+.sobre-texto {
+  width: 430px;
+  height: 502px;
+  display: flex;
+  flex-direction: column;
+}
+
 .sobre-texto h2 {
-  font-family: 'Ibarra Real Nova bold';
+  font-family: "Ibarra Real Nova bold";
   font-size: 40px;
   font-weight: 700;
   line-height: 42px;
   letter-spacing: -0.36px;
   margin-bottom: 30px;
-  color: #33323D;
+  color: #33323d;
   text-align: left;
 }
 
 .sobre-texto p {
   max-height: 430px;
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  color: #33323D;
+  color: #33323d;
   text-align: left;
 }
 
 .botao-portfolio {
   align-self: center;
   padding: 17px 30px;
-  border: 1px solid #33323D;
+  border: 1px solid #33323d;
   background-color: transparent;
-  color: #33323D;
+  color: #33323d;
   font-size: 12px;
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-weight: 400;
   line-height: 14.1px;
   letter-spacing: 2px;
@@ -173,6 +182,10 @@ nav a {
   margin: 46px auto 0 auto;
 }
 
+.botao-portfolio:hover {
+  background-color: #33323d;
+  color: #ffffff;
+}
 
 .contato-menu {
   max-width: 1110px;
@@ -184,21 +197,25 @@ nav a {
 }
 
 .contato-texto h2 {
-  font-family: 'Ibarra Real Nova';
+  font-family: "Ibarra Real Nova";
   font-weight: 700;
   font-size: 40px;
   line-height: 42px;
   letter-spacing: -0.34px;
-  color: #33323D;
+  color: #33323d;
+  width: 367px;
+  height: 84px;
 }
 
 .botao-contato {
+  width: 168px;
+  height: 48px;
   padding: 17px 30px;
-  border: 1px solid #33323D;
+  border: 1px solid #33323d;
   background-color: transparent;
-  color: #33323D;
+  color: #33323d;
   font-size: 12px;
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-weight: 400;
   line-height: 14.1px;
   letter-spacing: 2px;
@@ -207,7 +224,7 @@ nav a {
 }
 
 .botao-contato:hover {
-  background-color: #33323D;
+  background-color: #33323d;
   color: #ffffff;
 }
 
@@ -218,19 +235,25 @@ nav a {
 .footer {
   max-width: 1111px;
   height: 80px;
-  margin:  0 auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #ffffff;
 }
 
-.footer-logo{
+.footer-logo .footer-nav {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
   max-width: 100%;
 }
 
 .footer-logo img {
   display: block;
+  margin-right: 48px;
 }
 
 .footer .footer-nav ul {
@@ -260,12 +283,10 @@ nav a {
 .footer .social {
   display: flex;
   gap: 16px;
+  margin-left: auto;
 }
 
 .footer .social img {
   width: 24px;
   height: auto;
 }
-
-
-
