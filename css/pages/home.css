@@ -276,7 +276,7 @@ nav a {
   text-transform: uppercase;
 }
 
-.footer-nav a:hover {
+.footer .footer-nav ul li a:hover {
   color: #5fb4a2;
 }
 
