@@ -183,6 +183,188 @@ nav a {
   color: #ffffff;
 }
 
+/* insure section */
+.insure-section .insure-preview {
+  max-width: 1015px;
+  max-height: 500px;
+  margin: 0 auto 80px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.insure-preview img {
+  width: 540px;
+  height: 500px;
+}
+
+.insure-preview .insure-text {
+  width: 350px;
+  height: 500px;
+  margin-left: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #eaeaeb;
+  border-bottom: 1px solid #eaeaeb;
+}
+
+.insure-text h2 {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  color: #33323d;
+}
+
+.insure-text p {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  width: 350px;
+  height: 120px;
+  margin: 28px auto 54px auto;
+}
+
+.insure-text a {
+  padding: 17px 30px;
+  border: 1px solid #33323d;
+  background-color: transparent;
+  color: #33323d;
+  font-size: 12px;
+  font-family: "Public Sans";
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 46px auto 0 0;
+  transition: background-color 0.3s ease;
+}
+
+.insure-text a:hover {
+  background-color: #33323d;
+  color: #ffffff;
+}
+
+/* fylo section */
+.fylo-section {
+  max-width: 1015px;
+  max-height: 500px;
+  margin: 0 auto 150px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fylo-preview img {
+  width: 540px;
+  height: 500px;
+}
+
+.fylo-text {
+  width: 350px;
+  height: 500px;
+  margin-right: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #eaeaeb;
+  border-bottom: 1px solid #eaeaeb;
+}
+
+.fylo-text h2 {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  color: #33323d;
+}
+
+.fylo-text p {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  width: 350px;
+  height: 120px;
+  margin: 28px 0 54px 0;
+}
+
+.fylo-text a {
+  padding: 17px 30px;
+  border: 1px solid #33323d;
+  background-color: transparent;
+  color: #33323d;
+  font-size: 12px;
+  font-family: "Public Sans";
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 46px auto 0 0;
+  transition: background-color 0.3s ease;
+}
+
+.fylo-text a:hover {
+  background-color: #33323d;
+  color: #ffffff;
+}
+
+/* contato */
+.contato-menu {
+  max-width: 1015px;
+  margin: 0 auto 150px auto;
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contato-texto h2 {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.34px;
+  color: #33323d;
+  width: 367px;
+  height: 84px;
+}
+
+.botao-contato {
+  width: 168px;
+  height: 48px;
+  padding: 17px 30px;
+  border: 1px solid #33323d;
+  background-color: transparent;
+  color: #33323d;
+  font-size: 12px;
+  font-family: "Public Sans";
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.botao-contato a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.botao-contato:hover {
+  background-color: #33323d;
+  color: #ffffff;
+}
+
 /* footer */
 
 .footer-bg {

@@ -158,7 +158,11 @@ nav a {
   background-color: #eaeaeb;
   width: 635px;
   height: 48px;
+  outline: none;
+}
 
+.form-group input:focus, textarea:focus {
+  border: 2px solid #000000;
 }
 
 .form-group textarea {
