@@ -51,7 +51,80 @@ nav a {
 }
 
 /* Main */
+.entre-em-contato {
+  max-width: 1110px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-top: 1px solid #eaeaeb;
+  border-bottom: 1px solid #eaeaeb;
+}
 
+.contato-titulo h2 {
+  margin-right: 125px;
+  width: 350px;
+  height: 42px;
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  color: #33323d;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.descricao-info p {
+  width: 635px;
+  height: 180px;
+
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+}
+
+.descricao-social {
+  margin-top: 54px;
+  display: flex;
+  gap: 16px;
+}
+
+.descricao-social img {
+  width: 24px;
+  height: auto;
+}
+
+.contato {
+  margin: 47px auto 109px auto;
+  max-width: 1110px;
+  max-height: 426px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contato .contato-titulo {
+  font-family: 'Ibarra Real Nova';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  color: #33323d;
+}
+
+.contato .contat-formulario {
+  width: 635px;
+  height: 426px;
+  display: flex;
+}
 
 /* footer */
 .footer-bg {
