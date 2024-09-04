@@ -23,7 +23,7 @@ a {
 .menu {
   max-width: 1111px;
   max-height: 32px;
-  margin: 64px auto 54px auto;
+  margin: 64px auto 94px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -49,8 +49,72 @@ nav a {
   color: #33323d;
 }
 
-/* main */
+/* manage section */
+.manage-section .manage-preview {
+  max-width: 1015px;
+  max-height: 500px;
+  margin: 0 auto 80px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.manage-section .manage-preview img {
+  width: 540px;
+  height: 500px;
+}
+
+.manage-preview .manage-text {
+  width: 350px;
+  height: 500px;
+  margin-left: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #eaeaeb;
+  border-bottom: 1px solid #eaeaeb;
+}
+
+.manage-text h2 {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  color: #33323d;
+}
+
+.manage-text p {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  width: 350px;
+  height: 120px;
+  margin: 28px auto 54px auto;
+}
+
+.manage-text a {
+  padding: 17px 30px;
+  border: 1px solid #33323d;
+  background-color: transparent;
+  color: #33323d;
+  font-size: 12px;
+  font-family: "Public Sans";
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 46px auto 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.manage-text a:hover {
+  background-color: #33323d;
+  color: #ffffff;
+}
 /* footer */
 
 .footer-bg {
