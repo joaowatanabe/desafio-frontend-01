@@ -120,10 +120,72 @@ nav a {
   color: #33323d;
 }
 
-.contato .contat-formulario {
+.contato .contato-titulo h2 {
+  width: 200px;
+  margin-right: 125px;
+}
+
+.contato-formulario {
   width: 635px;
   height: 426px;
   display: flex;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Public Sans';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  color: #33323d;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #eaeaeb;
+  background-color: #eaeaeb;
+  width: 635px;
+  height: 48px;
+
+}
+
+.form-group textarea {
+  resize: none;
+  height: 96px;
+}
+
+button[type="submit"] {
+  width: 200px;
+  height: 48px;
+  background-color: #203A4C;
+  color: #ffffff;
+  font-family: 'Public Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #5FB4A2;
 }
 
 /* footer */

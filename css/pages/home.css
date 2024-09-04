@@ -96,6 +96,7 @@ nav a {
   padding-right: 28px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .hero .sobre-mim .icon {
@@ -180,6 +181,7 @@ nav a {
   cursor: pointer;
   text-transform: uppercase;
   margin: 46px auto 0 auto;
+  transition: background-color 0.3s ease;
 }
 
 .botao-portfolio a {
@@ -226,6 +228,7 @@ nav a {
   letter-spacing: 2px;
   cursor: pointer;
   text-transform: uppercase;
+  transition: background-color 0.3s ease;
 }
 
 .botao-contato a {
