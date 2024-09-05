@@ -180,7 +180,7 @@ nav a {
   letter-spacing: 2px;
   cursor: pointer;
   text-transform: uppercase;
-  margin: 46px auto 0 auto;
+  margin:  24px auto 46px auto;
   transition: background-color 0.3s ease;
 }
 
