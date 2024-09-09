@@ -1,148 +1,132 @@
-![](https://i.imgur.com/xG74tOh.png)
 
-# Desafio | Front-end - Módulo 1
+# Desafio Frontend - Portfólio - Cubos Academy
 
-O objetivo deste exercício é replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
+O objetivo deste desafio é replicar o design do website presente no arquivo **'Desafio front academy 1.fig'**, criando um portfólio fictício para apresentar o desenvolvedor e seus projetos.
 
-# Caso tenha problema em abrir o arquivo pelo figma, utilize pelo [penpot](https://design.penpot.app/#/view/3d0e918b-fe70-802f-8004-ac028b5d73ec?page-id=3d0e918b-fe70-802f-8004-ac02970c091c&section=interactions&index=0&share-id=ab27a21c-afea-8070-8004-b24c3b686659)
+O site foi desenvolvido em **HTML5** e **CSS3**, e o foco principal foi seguir o design com fidelidade, garantindo a funcionalidade dos botões e o comportamento esperado em cada página.
 
-## Páginas obrigatórias
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/joaowatanabe/desafio-frontend-01?color=%2304D361">
 
-- [Home](#Home)
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/joaowatanabe/desafio-frontend-01">
+  
+  <a href="https://github.com/joaowatanabe/desafio-frontend-01/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/joaowatanabe/desafio-frontend-01">
+  </a>
+  
+</p>
+<h4 align="center"> 
+	🚧 Portfólio Minimalista 🚧
+</h4>
 
-## Páginas opcionais
+<p align="center">
+	<!-- <img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green"> -->
+    <img alt="Status Concluído" src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-brightgreen">
+</p>
 
-- [Portfolio](#Portfolio)
-- [Portfolio - 01 - Manage](#Portfolio---01---Manage)
-- [Portfolio - 02 - Bookmark](#Portfolio---02---Bookmark)
-- [Portfolio - 03 - Insure](#Portfolio---03---Insure)
-- [Portfolio - 04 - Fylo](#Portfolio---04---Fylo)
-- [Contato](#Contato)
+## 📖 Índice
+
+- [Sobre o projeto](#-sobre-o-projeto)
+- [Páginas](#-páginas)
+- [Requisitos obrigatórios](#-requisitos-obrigatórios)
+- [Seções do site](#-seções-do-site)
+  - [Home](#home)
+  - [Portfolio](#portfolio)
+  - [Manage](#manage)
+  - [Bookmark](#bookmark)
+  - [Insure](#insure)
+  - [Fylo](#fylo)
+  - [Contato](#contato)
+
+## 💻 Sobre o projeto
+
+Este portfólio foi desenvolvido como parte do curso **Desenvolvimento Fullstack** da **Cubos Academy**, ao final do módulo de frontend. O desafio propunha replicar o design proposto no **Figma**, seguindo todos os detalhes de estilo e layout. Foram aplicados os conceitos aprendidos de **HTML5** e **CSS3** para estruturar e estilizar o site.
+
+## ⚙️ Páginas
+
+- [Home](#home)
+- [Portfolio](#portfolio)
+- [Manage](#manage)
+- [Bookmark](#bookmark)
+- [Insure](#insure)
+- [Fylo](#fylo)
+- [Contato](#contato)
+
+## ✔️ Requisitos obrigatórios
+
+- [x] Seguir exatamente o padrão de design proposto no Figma.
+- [x] Código bem organizado e semântico.
+- [x] Navegação funcional entre todas as páginas e seções.
+
+## 🧩 Seções do site
 
 ### Home
 
-Seções
+- **Header**: Menu de navegação.
+  ![Header](https://i.imgur.com/Vwj9U0y.png)
 
-- Header ![](https://i.imgur.com/Vwj9U0y.png)
+- **Hero Section**: Introdução principal.
+  ![Hero](https://i.imgur.com/tjYO6R6.png)
 
-- Hero Section ![](https://i.imgur.com/tjYO6R6.png)
+- **Sobre Section**: Apresentação do desenvolvedor.
+  ![Sobre](https://i.imgur.com/KHPaEWW.png)
 
-- Sobre Section ![](https://i.imgur.com/KHPaEWW.png)
+- **Contato Section**: Formulário de contato.
+  ![Contato](https://i.imgur.com/e88URFi.png)
 
-- Contato Section ![](https://i.imgur.com/e88URFi.png)
-
-- Footer ![](https://i.imgur.com/P06m37L.png)
+- **Footer**: Rodapé com navegação.
+  ![Footer](https://i.imgur.com/P06m37L.png)
 
 ### Portfolio
 
-Seções
+Cada projeto é exibido com detalhes visuais e links de navegação.
 
-- Header ![](https://i.imgur.com/1pDIzMz.png)
+- **Manage**: Primeiro projeto.
+  ![Manage](https://i.imgur.com/jHweGIb.png)
 
-- Manage Section ![](https://i.imgur.com/jHweGIb.png)
+- **Bookmark**: Segundo projeto.
+  ![Bookmark](https://i.imgur.com/uTpctrq.png)
 
-- Bookmark Section ![](https://i.imgur.com/uTpctrq.png)
+- **Insure**: Terceiro projeto.
+  ![Insure](https://i.imgur.com/BsAWB7m.png)
 
-- Insure Section ![](https://i.imgur.com/BsAWB7m.png)
+- **Fylo**: Quarto projeto.
+  ![Fylo](https://i.imgur.com/W9s2afk.png)
 
-- Fylo Section ![](https://i.imgur.com/W9s2afk.png)
+### Manage
 
-- Contato Section ![](https://i.imgur.com/e88URFi.png)
+- **Header**: Navegação.
+  ![Header](https://i.imgur.com/1pDIzMz.png)
 
-- Footer ![](https://i.imgur.com/P06m37L.png)
+- **Hero Section**: Apresentação do projeto.
+  ![Hero](https://i.imgur.com/JYY2lNG.png)
 
-### Portfolio - 01 - Manage
+- **Descrição Projeto**: Explicação detalhada.
+  ![Descrição](https://i.imgur.com/uEgRim6.png)
 
-Seções
+- **Main Section**: Informações principais.
+  ![Main](https://i.imgur.com/O1JyZtK.png)
 
-- Header ![](https://i.imgur.com/1pDIzMz.png)
+- **Links Section**: Links para o projeto.
+  ![Links](https://i.imgur.com/zGJMDOE.png)
 
-- Hero Section ![](https://i.imgur.com/JYY2lNG.png)
+### Bookmark, Insure e Fylo
 
-- Descrição Projeto Aside ![](https://i.imgur.com/uEgRim6.png)
+As demais páginas seguem a mesma estrutura, com pequenas variações nos detalhes dos projetos.
 
-- Main Section
-  ![](https://i.imgur.com/O1JyZtK.png)
-
-- Links Section ![](https://i.imgur.com/zGJMDOE.png)
-
-- Contato Section ![](https://i.imgur.com/e88URFi.png)
-
-- Footer ![](https://i.imgur.com/P06m37L.png)
-
-### Portfolio - 02 - Bookmark
-
-Seções
-
-- Header ![](https://i.imgur.com/1pDIzMz.png)
-
-- Hero Section ![](https://i.imgur.com/ag3Madi.png)
-
-- Descrição Projeto Aside
-  ![](https://i.imgur.com/JDvgptu.png)
-
-- Main Section
-  ![](https://i.imgur.com/T41K6z3.png)
-
-- Links Section ![](https://i.imgur.com/UpCLzFL.png)
-
-- Contato Section ![](https://i.imgur.com/e88URFi.png)
-
-- Footer ![](https://i.imgur.com/P06m37L.png)
-
-### Portfolio - 03 - Insure
-
-Seções
-
-- Header ![](https://i.imgur.com/1pDIzMz.png)
-
-- Hero Section ![](https://i.imgur.com/yJMQ0iJ.png)
-
-- Descrição Projeto Aside
-  ![](https://i.imgur.com/zofNYva.png)
-
-- Main Section
-  ![](https://i.imgur.com/BMMJXlz.png)
-
-- Links Section ![](https://i.imgur.com/9fYN4lI.png)
-
-- Contato Section ![](https://i.imgur.com/e88URFi.png)
-
-- Footer ![](https://i.imgur.com/P06m37L.png)
-
-### Portfolio - 04 - Fylo
-
-Seções
-
-- Header ![](https://i.imgur.com/1pDIzMz.png)
-
-- Hero Section ![](https://i.imgur.com/7IcYjiF.png)
-
-- Descrição Projeto Aside
-  ![](https://i.imgur.com/fKuRKYX.png)
-
-- Main Section
-  ![](https://i.imgur.com/MQC6y17.png)
-
-- Links Section ![](https://i.imgur.com/3WGHl8V.png)
-
-- Contato Section ![](https://i.imgur.com/e88URFi.png)
-
-- Footer ![](https://i.imgur.com/P06m37L.png)
+---
 
 ### Contato
 
-Seções
+- **Header**: Navegação.
+  ![Header](https://i.imgur.com/ubDorki.png)
 
-- Header ![](https://i.imgur.com/ubDorki.png)
+- **Formulário**: Seção de contato.
+  ![Formulário](https://i.imgur.com/4GLs5Iw.png)
 
-- Entre em contato Section ![](https://i.imgur.com/4GLs5Iw.png)
+- **Footer**: Rodapé com navegação.
+  ![Footer](https://i.imgur.com/P06m37L.png)
 
-- Contato Section ![](https://i.imgur.com/VvO2m7w.png)
-
-- Footer ![](https://i.imgur.com/P06m37L.png)
-
-
-**LEMBRE-SE**: é melhor feito do quê perfeito!!!
+---
 
 ###### tags: `front-end` `módulo 1` `HTML` `CSS` `desafio`
